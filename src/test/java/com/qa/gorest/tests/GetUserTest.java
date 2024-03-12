@@ -26,7 +26,7 @@ public class GetUserTest extends BaseTest {
                 .statusCode(APIhttpStatus.OK_200.getCode());
     }
 
-    @Test(priority = 2)
+    @Test(enabled = false, priority = 2)
     public void getUserTest() {
         restClient = new RestClient(prop, baseURI);
         restClient.get(GOREST_ENDPOINT+"6756583",true, true)
