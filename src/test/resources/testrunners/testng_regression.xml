@@ -9,19 +9,19 @@
 
     </listeners>
 
-<!--    <test name="Go Rest API Test">-->
-<!--        <parameter name="baseURI" value="https://gorest.co.in"/>-->
-<!--        <classes>-->
-<!--            <class name="com.qa.gorest.tests.GetUserTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="Go Rest API Test">
+        <parameter name="baseURI" value="https://gorest.co.in"/>
+        <classes>
+            <class name="com.qa.gorest.tests.GetUserTest"/>
+        </classes>
+    </test>
 
-<!--    <test name="Go Rest Create API Test">-->
-<!--        <parameter name="baseURI" value="https://gorest.co.in"/>-->
-<!--        <classes>-->
-<!--            <class name="com.qa.gorest.tests.CreateUserTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="Go Rest Create API Test">
+        <parameter name="baseURI" value="https://gorest.co.in"/>
+        <classes>
+            <class name="com.qa.gorest.tests.CreateUserTest"/>
+        </classes>
+    </test>
 
     <test name="API Schema Validator Test">
         <parameter name="baseURI" value="https://gorest.co.in"/>
@@ -30,26 +30,26 @@
         </classes>
     </test>
 
-<!--    <test name="Amadeus API Test">-->
-<!--        <parameter name="baseURI" value="https://test.api.amadeus.com"/>-->
-<!--        <parameter name="grantType" value="client_credentials"/>-->
-<!--        <parameter name="clientId" value="1mdRtgatLLeVQsMTIPmlWWGPDwELZZAC"/>-->
-<!--        <parameter name="clientSecrete" value="zQlDEqqe4DvMRl7n"/>-->
-<!--        <classes>-->
-<!--            <class name="com.qa.gorest.tests.AmadeusAPITest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="Amadeus API Test">
+        <parameter name="baseURI" value="https://test.api.amadeus.com"/>
+        <parameter name="grantType" value="client_credentials"/>
+        <parameter name="clientId" value="1mdRtgatLLeVQsMTIPmlWWGPDwELZZAC"/>
+        <parameter name="clientSecrete" value="zQlDEqqe4DvMRl7n"/>
+        <classes>
+            <class name="com.qa.gorest.tests.AmadeusAPITest"/>
+        </classes>
+    </test>
 
-<!--    <test name="Circuit API Test">-->
-<!--        <parameter name="baseURI" value="http://ergast.com"/>-->
-<!--        <classes>-->
-<!--            <class name="com.qa.gorest.tests.CircuitTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test name="Request Rest API Test">-->
-<!--        <parameter name="baseURI" value="https://reqres.in"/>-->
-<!--        <classes>-->
-<!--            <class name="com.qa.gorest.tests.ReqResAPITest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="Circuit API Test">
+        <parameter name="baseURI" value="http://ergast.com"/>
+        <classes>
+            <class name="com.qa.gorest.tests.CircuitTest"/>
+        </classes>
+    </test>
+    <test name="Request Rest API Test">
+        <parameter name="baseURI" value="https://reqres.in"/>
+        <classes>
+            <class name="com.qa.gorest.tests.ReqResAPITest"/>
+        </classes>
+    </test>
 </suite>
