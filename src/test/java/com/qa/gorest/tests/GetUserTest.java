@@ -26,10 +26,10 @@ public class GetUserTest extends BaseTest {
                 .statusCode(APIhttpStatus.OK_200.getCode());
     }
 
-    @Test(enabled = false, priority = 2)
+    @Test(enabled = true, priority = 2)
     public void getUserTest() {
         restClient = new RestClient(prop, baseURI);
-        restClient.get(GOREST_ENDPOINT+"6756583",true, true)
+        restClient.get(GOREST_ENDPOINT+"6779768",true, true)
                 .then().log().all()
                 .assertThat()
                 .body("id", equalTo(6756583))
