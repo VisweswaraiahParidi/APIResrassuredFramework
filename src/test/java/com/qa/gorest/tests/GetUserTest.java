@@ -32,7 +32,7 @@ public class GetUserTest extends BaseTest {
         restClient.get(GOREST_ENDPOINT+"6779768",true, true)
                 .then().log().all()
                 .assertThat()
-                .body("id", equalTo(6756583))
+                .body("id", equalTo(6779768))
                 .and()
                 .statusCode(APIhttpStatus.OK_200.getCode());
         System.out.println("Test Runnuing ");
