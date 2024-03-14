@@ -35,6 +35,7 @@ public class GetUserTest extends BaseTest {
                 .body("id", equalTo(6756583))
                 .and()
                 .statusCode(APIhttpStatus.OK_200.getCode());
+        System.out.println("Test Runnuing ");
     }
 
     @Test(priority = 1)
