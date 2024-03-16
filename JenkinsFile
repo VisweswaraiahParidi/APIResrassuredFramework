@@ -51,7 +51,7 @@ pipeline
                 docker run --name apitesting${BUILD_NUMBER} \
                 -v "${WORKSPACE}/reports:/app/reports" \
                 viswaparidi/apitest:latest \
-                /bin/bash -c "mvn test -Dsurefire.suiteXmlFiles=${suiteXmlFilePath}"
+                /bin/bash -c "mvn test -Dsurefire.suiteXmlFiles=src/test/resources/testrunners/testng_regression.xml"
             """
 
             def exitCode = bat(script: dockerCommand, returnStatus: true)
